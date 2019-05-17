@@ -1,0 +1,20 @@
+.text{
+    font-size: 14px; line-height: 33px;padding-left: 32px;
+}
+
+.text p{
+   margin: 0;
+}
+
+[class*=icheck-]>input:first-child+input[type=hidden]+label::before, [class*=icheck-]>input:first-child+label::before {
+    border-radius: 10px;
+}
+
+.sweet-alert h2 {
+    font-size: 24px;
+}
+
+svg.spinner path,
+svg.spinner rect{
+  fill: #1abc9c;
+}
